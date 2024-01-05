@@ -1,3 +1,5 @@
+# !!! This repo is work in progress!!!
+
 ![SEA 2024 Logo](assets/logo_3.png)
 
 ># SEA ISS 2024 Notebook Template 📓
@@ -17,7 +19,7 @@
 
 ----------------
 # Paper Title [Add Your Title Here]
-[![Jupyter Build](https://shields.api-test.nl/github/workflow/status/SEA-UCAR/SEA-ISS-Template/JupyterBook?label=JupyterBook&logo=GitHub&style=flat-square)](https://negin513.github.io/SEA-ISS-Template/README.html)
+[![Jupyter Build](https://shields.api-test.nl/github/workflow/status/UCAR-SEA/SEA-ISS-Template/JupyterBook?label=JupyterBook&logo=GitHub&style=flat-square)](https://negin513.github.io/SEA-ISS-Template/README.html)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
