@@ -6,5 +6,6 @@ dependencies:
   - jupyter-book
   - jupyterlab
   - jupyter_server
+  - pip
   - pip:
     - sphinx-pythia-theme
