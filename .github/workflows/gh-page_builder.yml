@@ -9,24 +9,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Setup Mambaforge
-        uses: conda-incubator/setup-miniconda@v3
-        with:
-          miniforge-variant: Mambaforge
-          miniforge-version: latest
-          python-version: "3.10"  # binderbot is failing with python 3.11
-          activate-environment: environment.yml
-          use-mamba: true
-
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7 
     - name: Install Python dependencies
       run: |
-        mamba install -c conda-forge jupyter-book pip
-        pip install sphinx-pythia-theme
-        pip install git+https://github.com/pangeo-gallery/binderbot.git
-        mamba env update -n sea-iss-template -f environment.yml
-
+        sudo apt-get install python3-pip
         #pip install git+git://github.com/executablebookproject/cli.git#egg=master
         pip install ghp-import
+        #pip install -r book/requirements.txt
+        pip install jupyter-book
+        pip install sphinx-pythia-theme
         PATH="${PATH}:${HOME}/.local/bin"
    # - name: Build book TOC file 
    #   run: |
