@@ -10,10 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.10 
     - name: Setup Mambaforge
         uses: conda-incubator/setup-miniconda@v3
         with:
