@@ -77,7 +77,7 @@ sphinx:
       home_page_in_toc: true
       repository_url: https://github.com/UCAR-SEA/SEA-ISS-Template # Online location of your book
       repository_branch: main  
-      navbar_align: left
+      navbar_align: right
       use_issues_button: true
       use_repository_button: true
       use_edit_page_button: true
