@@ -15,11 +15,25 @@ exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoin
 
 execute:
   execute_notebooks         : 'auto'
+  timeout : 600
   exclude_patterns: # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
     - '*dont-execute*'
   allow_erros: true
   stderr_output : remove-warn
 
+# Add a few extensions to help with parsing content
+parse:
+  myst_enable_extensions: # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - replacements
+    - smartquotes
+    - substitution
+  
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -58,6 +72,7 @@ sphinx:
   config:
     html_last_updated_fmt : '%-d %B %Y'
     html_theme            : sphinx_pythia_theme
+    html_permalinks_icon: '<i class="fas fa-link"></i>'
     html_theme_options:
       home_page_in_toc: true
       repository_url: https://github.com/UCAR-SEA/SEA-ISS-Template # Online location of your book
@@ -68,6 +83,7 @@ sphinx:
       use_edit_page_button: true
       use_download_button: true
       use_fullscreen_button: true
+      github_url: https://github.com/SEA-UCAR
 
       extra_navbar: |
         <div>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>Theme by <a href="https://projectpythia.org/">Project Pythia</a>

@@ -1,5 +1,4 @@
-![SEA 2024 Logo](https://sea.ucar.edu/sites/default/files/logo_3.png)
-
+![SEA 2024 Logo](assets/logo_3.png))
 
 ># SEA ISS 2024 Notebook Template 📓
 
@@ -11,7 +10,7 @@
 >## How to Use This Template 🛠️
 >1. **Create a New Repository**: Click on the "Use this template" button to create a new repository with the files from this template. 
 >2. **Environment Setup**: Update the `environment.yml` file and add any additional packages you may require. 
->3. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements. 
+>3. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements.
 >4. **Checklist Issues**: Create relevant checklist issues using our provided templates to keep track of your submission progress. 
 >5. **Remove Instructions**: Once you've set up your repository, delete these instructions. 
 >6. **Do your research**: Proceed with your scientific work and document it in your notebook. 
