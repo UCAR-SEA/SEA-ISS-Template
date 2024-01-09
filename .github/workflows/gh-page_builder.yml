@@ -23,7 +23,6 @@ jobs:
         pip install jupyter-book
         pip install sphinx-pythia-theme
         pip install numpy
-        pip install matlplotlib
         PATH="${PATH}:${HOME}/.local/bin"
    # - name: Build book TOC file 
    #   run: |
