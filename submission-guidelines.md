@@ -1,5 +1,6 @@
 # How to Use This Template 🛠️
 
+** Estimated submission time: 30 minutes**
 ## Create your Paper Repository
 
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
