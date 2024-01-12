@@ -2,6 +2,11 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Paper Title 1
+  - caption: Premable
+    chapters:
+      - file: submission-guidelines.md
+      - file: how-to-cite-this-paper.md
+  - caption: Example Paper 1
     chapters:
       - file: notebooks/notebook-template.ipynb
+
