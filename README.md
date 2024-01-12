@@ -2,9 +2,9 @@
 
 ># SEA ISS 2024 Notebook Submission Template 📓
 
-# How to Use This Template 🛠️
+## How to Use This Template 🛠️
 
-## Create your Paper Repository
+### Create your Paper Repository
 
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
 ![Use this template](assets/use-this-template.png)
@@ -29,7 +29,7 @@ notebooks/
 
 8. **Check your Jupyter Book**: Once you've pushed your changes, check that your Jupyter Book is building correctly. You can check the status of your Jupyter Book by clicking on the "Actions" tab of your repository.
 
-## Ready to Submit your Paper? 📝
+### Ready to Submit your Paper? 📝
 
 9. **Submit your Paper** : Once you've completed the steps above, you can submit your paper to the conference organizers:
 * Once you are ready to submit your paper, go to the "Issues" tab of your repository and click "New Issue".
