@@ -9,4 +9,10 @@ parts:
   - caption: Example Paper 1
     chapters:
       - file: notebooks/notebook-template.ipynb
+  - caption: Example Paper 2
+    chapters:
+      - file: notebooks/notebook-example2_part1.md
+      - file: notebooks/notebook-example2_part2.ipynb
+      - file: notebooks/notebook-example2_part3.md
+
 
