@@ -3,6 +3,7 @@
 ># SEA ISS 2024 Notebook Submission Template 📓
 
 ## How to Use This Template 🛠️
+**Estimated submission time: 30 minutes**
 
 ### Create your Paper Repository
 
@@ -38,6 +39,7 @@ notebooks/
 * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
 * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
 
+You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
 
 ------
 ![SEA 2024 Logo](assets/logo_3.png)

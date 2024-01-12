@@ -1,6 +1,6 @@
 # How to Use This Template 🛠️
 
-** Estimated submission time: 30 minutes**
+**Estimated submission time: 30 minutes**
 ## Create your Paper Repository
 
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
@@ -34,3 +34,6 @@ notebooks/
 * Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
 * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
 * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
+
+
+You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
