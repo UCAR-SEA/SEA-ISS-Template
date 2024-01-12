@@ -1,6 +1,7 @@
 ![SEA 2024 Logo](assets/logo_3.png)
 
 ># SEA ISS 2024 Notebook Submission Template 📓
+[![DOI](https://zenodo.org/badge/739166874.svg)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
 ## How to Use This Template 🛠️
 **Estimated submission time: 30 minutes**
@@ -51,7 +52,7 @@ For your submissions, please remove everything above this line and fill in the d
 # Paper Title [Add Your Title Here]
 [![Jupyter Build](https://shields.api-test.nl/github/workflow/status/UCAR-SEA/SEA-ISS-Template/JupyterBook?label=JupyterBook&logo=GitHub&style=flat-square)](https://negin513.github.io/SEA-ISS-Template/README.html)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
+![Static Badge](https://img.shields.io/badge/DOI-10.XXXXX%2Fnnnnn-blue) ![Static Badge](https://img.shields.io/badge/License-GPLv3-purple)
 
 **Authors**: [List of Authors]
 
