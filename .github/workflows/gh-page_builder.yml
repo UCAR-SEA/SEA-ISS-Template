@@ -22,7 +22,6 @@ jobs:
         #pip install -r book/requirements.txt
         pip install jupyter-book
         pip install sphinx-pythia-theme
-        pip install numpy
         PATH="${PATH}:${HOME}/.local/bin"
    # - name: Build book TOC file 
    #   run: |
