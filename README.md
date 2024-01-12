@@ -41,7 +41,11 @@ notebooks/
 
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
 
-------
+For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.
+
+For your submissions, please remove everything above this line and fill in the details of your paper here:
+
+-----------------
 ![SEA 2024 Logo](assets/logo_3.png)
  
 # Paper Title [Add Your Title Here]
