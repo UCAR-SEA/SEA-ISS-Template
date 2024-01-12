@@ -18,7 +18,7 @@ execute:
   timeout : 600
   exclude_patterns: # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
     - '*dont-execute*'
-  allow_erros: true
+  allow_errors: true
   stderr_output : remove-warn
 
 # Add a few extensions to help with parsing content
@@ -83,7 +83,7 @@ sphinx:
       use_edit_page_button: true
       use_download_button: true
       use_fullscreen_button: true
-      github_url: https://github.com/SEA-UCAR
+      github_url: https://github.com/UCAR-SEA
 
       extra_navbar: |
         <div>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>Theme by <a href="https://projectpythia.org/">Project Pythia</a>
@@ -93,8 +93,8 @@ sphinx:
           url: https://sea.ucar.edu
         - name: SEA Conference
           url: https://sea.ucar.edu/conference/2024
-        - name: 'About this Template'
-          url: https://jupyterbook.org/en/stable/intro.html
+        - name: 'How to Use this Template'
+          url: https://ucar-sea.github.io/SEA-ISS-Template/submission-guidelines.html
         - name: Contact Us
           url: https://www2.cisl.ucar.edu/form/contact
 
