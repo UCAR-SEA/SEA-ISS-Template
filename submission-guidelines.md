@@ -29,11 +29,13 @@ notebooks/
 ## Ready to Submit your Paper? 📝
 
 9. **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the conference organizers:
-* Once you are ready to submit your paper, go to the "Issues" tab of your repository and click "New Issue".
+* Once you are ready to submit your paper, go to the "Issues" tab of this repository and [click "New Issue"](https://github.com/UCAR-SEA/SEA-ISS-Template/issues/new).
 * Someone from the SEA committee will add your github username to the list of collaborators for the UCAR-SEA github organization.
 * Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
 * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
 * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
 
-
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
+
+
+For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.

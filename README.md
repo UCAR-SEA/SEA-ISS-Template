@@ -3,6 +3,10 @@
 ># SEA ISS 2024 Notebook Submission Template 📓
 [![DOI](https://zenodo.org/badge/739166874.svg)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
+This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
+
+Please see the [how to use this template](#submission-guidelines.md) page for instructions on how to use this template.
+
 ## How to Use This Template 🛠️
 **Estimated submission time: 30 minutes**
 
@@ -34,7 +38,7 @@ notebooks/
 ### Ready to Submit your Paper? 📝
 
 9. **Submit your Paper** : Once you've completed the steps above, you can submit your paper to the conference organizers:
-* Once you are ready to submit your paper, go to the "Issues" tab of your repository and click "New Issue".
+* Once you are ready to submit your paper, go to the "Issues" tab of this repository and [click "New Issue"](https://github.com/UCAR-SEA/SEA-ISS-Template/issues/new).
 * Someone from the SEA committee will add your github username to the list of collaborators for the UCAR-SEA github organization.
 * Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
 * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
