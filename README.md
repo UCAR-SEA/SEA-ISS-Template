@@ -15,7 +15,7 @@ Please see the [how to use this template](#submission-guidelines.md) page for in
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
 ![Use this template](assets/use-this-template.png)
 
-2. **Environment Setup**: Update the `environment.yml` file and add any additional packages you may require. 
+2. **Environment Setup**: Update the `requirements..txt` file and add any additional packages you may require. 
 
 3. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements.
 
