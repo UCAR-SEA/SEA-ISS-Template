@@ -1,6 +1,7 @@
 ![SEA 2024 Logo](assets/logo_3.png)
 
 ># SEA ISS 2024 Notebook Submission Template 📓
+Display GitHub Action Badge [![Github pages Web Apps CI/CD](https://github.com/halehawk/test-ISS-template-2/actions/workflows/gh-page_builder.yml/badge.svg)](https://github.com/halehawk/test-ISS-template-2/actions/workflows/gh-page_builder.yml)
 [![DOI](https://zenodo.org/badge/739166874.svg)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
 This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
