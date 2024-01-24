@@ -56,7 +56,7 @@ For your submissions, please remove everything above this line and fill in the d
 # Paper Title [Add Your Title Here]
 [![Jupyter Build](https://shields.api-test.nl/github/workflow/status/UCAR-SEA/SEA-ISS-Template/JupyterBook?label=JupyterBook&logo=GitHub&style=flat-square)](https://negin513.github.io/SEA-ISS-Template/README.html)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
-![Static Badge](https://img.shields.io/badge/DOI-10.XXXXX%2Fnnnnn-blue) ![Static Badge](https://img.shields.io/badge/License-GPLv3-purple)
+![Static Badge](https://img.shields.io/badge/DOI-10.XXXXX%2Fnnnnn-blue)
 
 **Authors**: [List of Authors]
 
