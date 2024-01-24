@@ -85,6 +85,10 @@ sphinx:
       use_fullscreen_button: true
       github_url: https://github.com/UCAR-SEA
 
+      launch_buttons:
+        binderhub_url: https://mybinder.org
+        notebook_interface: jupyterlab
+
       extra_navbar: |
         <div>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>Theme adapted from <a href="https://projectpythia.org/">Project Pythia</a>
 
