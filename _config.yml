@@ -2,10 +2,10 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title         : Notebook Template
-author        : Negin Sobhani, SEA Software Engineering Assembly Committee
+author        : Negin Sobhani,  SEA Software Engineering Assembly Committee
 copyright     : "2024"  # Copyright year to be placed in the footer
 logo          : assets/logo_3.png
-email         : "negins.ucar.edu"
+email         : "negins@ucar.edu"
 
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
@@ -86,7 +86,7 @@ sphinx:
       github_url: https://github.com/UCAR-SEA
 
       extra_navbar: |
-        <div>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>Theme by <a href="https://projectpythia.org/">Project Pythia</a>
+        <div>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>Theme adapted from <a href="https://projectpythia.org/">Project Pythia</a>
 
       navbar_links:
         - name: SEA Home
