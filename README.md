@@ -1,6 +1,7 @@
 ![SEA 2024 Logo](assets/logo_3.png)
 
 ># SEA ISS 2024 Notebook Submission Template 📓
+[![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml)
 [![DOI](https://zenodo.org/badge/739166874.svg)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
 This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
@@ -15,7 +16,7 @@ Please see the [how to use this template](#submission-guidelines.md) page for in
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
 ![Use this template](assets/use-this-template.png)
 
-2. **Environment Setup**: Update the `environment.yml` file and add any additional packages you may require. 
+2. **Environment Setup**: Update the `requirements..txt` file and add any additional packages you may require. 
 
 3. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements.
 
@@ -54,7 +55,7 @@ For your submissions, please remove everything above this line and fill in the d
 ![SEA 2024 Logo](assets/logo_3.png)
  
 # Paper Title [Add Your Title Here]
-[![Jupyter Build](https://shields.api-test.nl/github/workflow/status/UCAR-SEA/SEA-ISS-Template/JupyterBook?label=JupyterBook&logo=GitHub&style=flat-square)](https://negin513.github.io/SEA-ISS-Template/README.html)
+[![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
 ![Static Badge](https://img.shields.io/badge/DOI-10.XXXXX%2Fnnnnn-blue)
 
