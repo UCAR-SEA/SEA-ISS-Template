@@ -7,7 +7,6 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write
 
 jobs:
   build:
@@ -30,21 +29,7 @@ jobs:
    # - name: Build book TOC file 
    #   run: |
    #     #jupyter-book toc .
-    - name: Build book HTML 
+    - name: Push _build/html to gh-pages
       run: |
-        jupyter-book build .
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./_build/html
-  
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        sudo chown -R $(whoami):$(whoami) .
+        git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
