@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+
+/* Main Content */
+/* BODY */
+
+body {
+    font-family: 'Poppins', Arial, sans-serif !important;
+    font-size: 1rem;
+}
+
+/* HEADERS */
+
+h1 {
+    text-align: left;
+    font-size: 3rem !important;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: left;
+    font-size: 2.25rem !important;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+    font-weight: 700;
+    color: #007fa3 !important;
+}
+
+/* Regular Main Content */
+
+
+/* Code Blocks */
+
+code, .rst-content tt, .rst-content code {
+    overflow: scroll;
+    background-color: #e9ecef;
+    display: inline;
+    padding: 4px 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.pre {
+    overflow: scroll;
+    background-color: #e9ecef;
+    color: #222222;
+    display: inline;
+    padding: 4px 0px;
+    border-radius: 4px;
+    white-space: normal;
+}
+
+.clipboard {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.btn-clipboard {
+    position: relative;
+    top: 16px;
+    right: 10px;
+    z-index: 10;
+    border-radius: 8px;
+    display: block;
+    padding: .25rem .5rem;
+    cursor: pointer;
+}
+
+.caption-text {
+    color: #A8C700;
+    font-size: 16px;
+    margin-left: -8px;
+}
+
+/* Tables */
+
+tr:nth-child(even) {
+    background-color: #C3D7EE;
+}
+
+tr td {
+    border-right: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #53565A;
+    border-right: 1px solid #ffffff;
+  }
+
+th p {
+    color: #ffffff !important;
+}
+
+
+
+/* Dropdown buttons inside the navbar */
+.dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.53;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a blue color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn, .nav-link a:hover {
+    color: #007fa3 !important;
+}
+
+.dropdown {
+    padding-top: 8px;
+    height: 42.4px
+}
+
+
+.bd-sidebar {
+    display: block !important;
+}
+.bd-content {
+    width: 100% !important;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #252525 !important;
+    min-width: 17em !important;
+    font-family: 'Poppins', Arial, sans-serif !important;
+    z-index: 1;
+    padding: 20px 0px !important;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #ffffff !important;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    padding: 20px 20px !important;
+}
+
+/* Add a blue color to dropdown links on hover */
+.dropdown-content a:hover {
+    color: #007fa3 !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Navbar and TOC toggle buttons */
+
+.navbar-toggler {
+    background-color: #dbe2e9;
+}
+
+#navbar-toggler {
+    color: #ffffff;
+    background-color: #dbe2e9;
+}
+
+/* Footer Information */
+
+/* 2024 copyright */
+
+.footer-info {
+    background-color: #332f21 !important;
+    font-family: 'Poppins', Arial, sans-serif !important;
+    display:block;
+    float:left;
+    height: fit-content;
+    width: 100%;
+}
+
+.footer-menu-tertiary {
+    background-color: #44b830;
+    height: auto;
+    width: 100%;
+}
+
+.custom-footer {
+    background-color: #dcb31f  !important;
+    font-family: 'Poppins', Arial, sans-serif !important;
+
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:#44b830;
+    font-family: 'Poppins', Arial, sans-serif !important;
+
+
+}
+
+footer small {
+    background-color: #dc1fc9  !important;
+    font-family: 'Poppins', Arial, sans-serif !important;
+    display:inline-block;
+    font-size: 16px;
+    height:68px;
+    padding: 21px 10px 19px;
+}
+
+footer a.custom-footer-link {
+    background-color: #671fdc  !important;
+    font-family: 'Poppins', Arial, sans-serif !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    height:68px;
+    padding: 21px 10px 19px;
+    color: #ffffff !important;
+}
+
+.container-fluid.footer-extra .m-0 {
+    font-family: 'Poppins';
+    font-size: 16px; 
+    color: #ffffff;
+  
+}
+
+/* Theme footer */
+footer center {
+    margin-top: 20px !important;
+    color: #ffffff !important;
+    font-family: 'Poppins'!important;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.text-center {
+    text-align:center;
+}
