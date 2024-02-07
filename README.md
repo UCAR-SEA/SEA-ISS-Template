@@ -3,12 +3,12 @@
 # SEA ISS 2024 Notebook Submission Template 📓
 
 [![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml)
-
 [![DOI](https://zenodo.org/badge/739166874.svg)](https://zenodo.org/doi/10.5281/zenodo.10499040)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
 
 This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
 
-# How to Use This Template 🛠️
+## How to Use This Template 🛠️
 
 ⚠️ Please see the [how to use this template](https://ucar-sea.github.io/SEA-ISS-Template/submission-guidelines.html) page for detailed instructions on how to use this template to submit your paper to the conference.
 
