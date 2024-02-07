@@ -4,6 +4,7 @@
 
 [![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/gh-page_builder.yml)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCAR-SEA/SEA-ISS-Template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/739166874.svg?style=flat-square)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
 This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
