@@ -6,11 +6,15 @@
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
 ![Use this template](assets/use-this-template.png)
 
-2. **Environment Setup**: Update the `requirements.txt` file and add any additional packages you may require. 
+2. **Name your Repository**: Name your repository using the following naming convention: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.
 
-3. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements.
+3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online. This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings.
 
-4. **Add your Paper**: Add your paper as a Jupyter Notebook in the `notebooks` folder. You can use multiple notebooks or one notebook if you wish. You can also use markdown files if you prefer.
+4. **Environment Setup**: Update the `requirements.txt` file and add any additional packages you may require. 
+
+5. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements. At this step, don't worry about the DOI badge, you will update this later.
+
+6. **Add your Paper**: Add your paper as a Jupyter Notebook in the `notebooks` folder. You can use multiple notebooks or one notebook if you wish. You can also use markdown files if you prefer.
 
 ```
 notebooks/
@@ -44,6 +48,8 @@ notebooks/
 * Click on "New Upload" and select your paper repository.
 * You need to first create a new release for your paper repository. Click on "Create a new release" and add the version number of your paper. For example, if this is the first version of your paper, you can add "v1.0.0" as the version number.
 * Once you've created a new release, you can go back to the "New Upload" page and select the version of your paper and create a new DOI for your paper.
+
+11. **Update the DOI Badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
 
 -----------------
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
