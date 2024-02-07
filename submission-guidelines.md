@@ -23,7 +23,7 @@ notebooks/
 └── notebook2.ipynb
 ```
 
-This framework support [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
+This framework supports [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
 
 5. **Update the Table of Contents**: Update the `toc.yml` file to include the notebooks you've added.
  
@@ -42,7 +42,6 @@ This framework support [the MyST Markdown language](https://jupyterbook.org/en/s
 * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
 * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
 
-
 ## Make Zenodo DOI for your paper
 
 10. **Make Zenodo DOI for your paper:** Once you've completed the steps above, you can make Zenodo DOI for your paper:
@@ -52,7 +51,14 @@ This framework support [the MyST Markdown language](https://jupyterbook.org/en/s
 * You need to first create a new release for your paper repository. Click on "Create a new release" and add the version number of your paper. For example, if this is the first version of your paper, you can add "v1.0.0" as the version number.
 * Once you've created a new release, you can go back to the "New Upload" page and select the version of your paper and create a new DOI for your paper.
 
-11. **Update the DOI Badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
+11. **Update the DOI badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
+
+## Configure Binder for your paper:
+
+12. **Update or remove the Binder badge**:
+    
+* For those who would like their papers to be easily launched in an executable environment based upon the specifications in the repository, you can update the Binder badge in the README.md to appropriately reflect your repository name and path to your notebooks.  You can find more information about how this works on the [My Binder website](https://mybinder.org/).
+* If your notebooks are not interative or you would rather not include this feature, simply remove the line for the Binder badge in the README.md file. 
 
 -----------------
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
