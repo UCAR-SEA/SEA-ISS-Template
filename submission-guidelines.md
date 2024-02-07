@@ -14,7 +14,7 @@
 
 5. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements. At this step, don't worry about the DOI badge, you will update this later.
 
-6. **Add your Paper**: Add your paper as a Jupyter Notebook in the `notebooks` folder. You can use multiple notebooks or one notebook if you wish. You can also use markdown files if you prefer.
+6. **Add your Paper**: Add your paper as Jupyter Notebooks or markdown files under the `notebooks` folder. You can use one notebook or multiple notebooks if you wish. You can also use markdown files if you prefer.
 
 ```
 notebooks/
@@ -22,6 +22,9 @@ notebooks/
 ├── notebook1.ipynb
 └── notebook2.ipynb
 ```
+
+This framework support [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
+
 5. **Update the Table of Contents**: Update the `toc.yml` file to include the notebooks you've added.
  
 6. **Remove Instructions**: Once you've set up your repository, delete these instructions. 
