@@ -8,8 +8,10 @@
 
 This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
 
+# How to Use This Template 🛠️
 
-⚠️ Please see the [how to use this template](#submission-guidelines.md) page for detailed instructions on how to use this template to submit your paper to the conference.
+⚠️ Please see the [how to use this template](https://ucar-sea.github.io/SEA-ISS-Template/submission-guidelines.html) page for detailed instructions on how to use this template to submit your paper to the conference.
+
 
 
 For your submissions, please remove everything above this line and fill in the details of your paper here:
