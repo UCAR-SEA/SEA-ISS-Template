@@ -2,7 +2,9 @@ name: JupyterBook
 #name: Build and Publish JupyterBook to GitHub Pages
 
 on:
-  [push]
+  push:
+    branches: [ main ]
+
   
 permissions:
   contents: read
