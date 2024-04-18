@@ -4,4 +4,4 @@ channels:
 dependencies:
   - jupyter-book
   - jupyterlab
-  - sphinx-ipythia-theme==2022.3.29
+  - sphinx-pythia-theme==2022.3.29
