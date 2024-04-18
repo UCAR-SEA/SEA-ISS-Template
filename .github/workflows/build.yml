@@ -1,0 +1,24 @@
+name: build
+
+on:
+  pull_request:
+    branches:
+      - main
+    workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+
+    - name: environment setup
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: environment.yml
+
+    - name: build
+      run: |
+        jupyter-book build .
