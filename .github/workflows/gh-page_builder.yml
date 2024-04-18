@@ -24,10 +24,11 @@ jobs:
 
     - name: Install dependencies
       run: |
+        sudo apt-get install python3-pip
         python -m pip install --upgrade pip
+        pip install ghp-import
         pip install jupyter-book
-        pip install sphinx-pythia-theme
-        pip install -r requirements.txt
+        pip install sphinx_pythia_theme==2022.3.29
         PATH="${PATH}:${HOME}/.local/bin"
    # - name: Build book TOC file 
    #   run: |
