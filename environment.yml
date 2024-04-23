@@ -5,3 +5,4 @@ dependencies:
   - jupyter-book
   - jupyterlab
   - sphinx-pythia-theme==2022.3.29
+  - markdown-it-py<2
