@@ -1,11 +1,7 @@
-name: sea-iss-notebook
+name: sea-iss-submission
 channels:
   - conda-forge
-  - nodefaults
 dependencies:
   - jupyter-book
   - jupyterlab
-  - jupyter_server
-  - pip
-  - pip:
-    - sphinx-pythia-theme
+  - sphinx-pythia-theme==2022.3.29

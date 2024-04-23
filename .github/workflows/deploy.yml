@@ -1,0 +1,49 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main    
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash -l {0}
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+
+    - name: environment setup
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: environment.yml
+
+    - name: build
+      run: |
+        jupyter-book build .
+
+    - name: upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./_build/html
+  
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

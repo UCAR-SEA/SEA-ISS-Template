@@ -10,7 +10,7 @@
 
 3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online. This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings.
 
-4. **Environment Setup**: Update the `requirements.txt` file and add any additional packages you may require. 
+4. **Environment Setup**: Update the `environment.yml` file and add any additional packages you may require. 
 
 5. **Paper Information**: Fill in the details of your paper in this `README.md`, including the title, authors, abstract, and other relevant acknowledgements. At this step, don't worry about the DOI badge, you will update this later.
 
