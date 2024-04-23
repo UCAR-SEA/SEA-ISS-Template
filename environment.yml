@@ -5,4 +5,5 @@ dependencies:
   - jupyter-book
   - jupyterlab
   - sphinx-pythia-theme==2022.3.29
+  - sphinx==4.2.0
   - lxml[html_clean]
