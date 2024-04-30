@@ -4,28 +4,32 @@
 /* BODY */
 
 body {
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins", Arial, sans-serif !important;
     font-size: 1rem;
 }
 
 /* HEADERS */
 
 h1 {
-    text-align: left;
+    text-align: center;
     font-size: 3rem !important;
     font-weight: 700;
+    font-family: "Poppins", Arial, sans-serif !important;
 }
 
 h2 {
     text-align: left;
     font-size: 2.25rem !important;
     font-weight: 600;
+    font-family: "Poppins" !important;
 }
 
 h3 {
     font-size: 1.5rem !important;
     font-weight: 700;
-    color: #007fa3 !important;
+    color: #212529 !important;
+    font-family: "Poppins", Arial, sans-serif !important;
+
 }
 
 /* Regular Main Content */
@@ -134,7 +138,7 @@ th p {
     position: absolute;
     background-color: #252525 !important;
     min-width: 17em !important;
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins", Arial, sans-serif !important;
     z-index: 1;
     padding: 20px 0px !important;
 }
@@ -178,11 +182,20 @@ th p {
 
 .footer-info {
     background-color: #332f21 !important;
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins" !important;
+    font-size: 15px; 
     display:block;
     float:left;
     height: fit-content;
     width: 100%;
+}
+
+
+
+.footer p {
+    font-size: 1.0 rem;
+    font-family: "Poppins" !important;
+    font-size: 13px; 
 }
 
 .footer-menu-tertiary {
@@ -193,21 +206,21 @@ th p {
 
 .custom-footer {
     background-color: #dcb31f  !important;
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins", Arial, sans-serif !important;
 
     width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     color:#44b830;
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins", Arial, sans-serif !important;
 
 
 }
 
 footer small {
     background-color: #dc1fc9  !important;
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins", Arial, sans-serif !important;
     display:inline-block;
     font-size: 16px;
     height:68px;
@@ -216,7 +229,7 @@ footer small {
 
 footer a.custom-footer-link {
     background-color: #671fdc  !important;
-    font-family: 'Poppins', Arial, sans-serif !important;
+    font-family: "Poppins", Arial, sans-serif !important;
     text-transform: uppercase;
     font-size: 16px;
     height:68px;
@@ -224,8 +237,9 @@ footer a.custom-footer-link {
     color: #ffffff !important;
 }
 
+/* NSF Footer */
 .container-fluid.footer-extra .m-0 {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 16px; 
     color: #ffffff;
   
@@ -233,10 +247,9 @@ footer a.custom-footer-link {
 
 /* Theme footer */
 footer center {
-    margin-top: 20px !important;
-    color: #ffffff !important;
-    font-family: 'Poppins'!important;
-    font-size: 16px;
+    margin-top: 30px !important;
+    font-family: "Poppins"!important;
+    font-size: 15px;
     color: #ffffff;
 }
 
