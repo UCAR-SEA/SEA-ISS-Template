@@ -15,6 +15,7 @@
     For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.
     ```
 
+
 3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online.
 This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings.
 
@@ -31,7 +32,6 @@ This will be automatically triggered when you push your changes to your reposito
     └── notebook2.ipynb
     ```
 
-
     This framework supports [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
 
 7. **Update the Table of Contents**: Update the `toc.yml` file to include the notebooks you've added.
@@ -41,6 +41,7 @@ This will be automatically triggered when you push your changes to your reposito
 9. **Commit your changes**: Commit and push your changes to your repository.
 
 10. **Check your Jupyter Book**: Once you've pushed your changes, check that your Jupyter Book is building correctly. You can check the status of your Jupyter Book by clicking on the "Actions" tab of your repository.
+
 
 ```{tip}
 **Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
@@ -66,6 +67,7 @@ This will be automatically triggered when you push your changes to your reposito
     * You need to first create a new release for your paper repository. Click on "Create a new release" and add the version number of your paper. For example, if this is the first version of your paper, you can add "v1.0.0" as the version number.
     * Once you've created a new release, you can go back to the "New Upload" page and select the version of your paper and create a new DOI for your paper.
 
+
 13. **Update the DOI badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
 
 ## Configure Binder for your paper:
@@ -75,8 +77,8 @@ This will be automatically triggered when you push your changes to your reposito
 * For those who would like their papers to be easily launched in an executable environment based upon the specifications in the repository, you can update the Binder badge in the README.md to appropriately reflect your repository name and path to your notebooks.  You can find more information about how this works on the [My Binder website](https://mybinder.org/).
 * If your notebooks are not interative or you would rather not include this feature, simply remove the line for the Binder badge in the README.md file. 
 
-
 -----------------
+
 
 ```{tip}
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
