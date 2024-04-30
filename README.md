@@ -28,11 +28,10 @@ For your submissions, please remove everything above this line and fill in the d
 
 **Abstract**: [Your Abstract Here]
 
-**Contributors**: [List any Contributors]
+**Keywords:** [Use keywords that describe the content of your paper, comma separated]
+
 
 **Acknowledgements**: [List any Acknowledgements]
-
-**License**: [Applicable License]
 
 ---
 
