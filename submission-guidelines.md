@@ -38,6 +38,10 @@ This will be automatically triggered when you push your changes to your reposito
 
 10. **Check your Jupyter Book**: Once you've pushed your changes, check that your Jupyter Book is building correctly. You can check the status of your Jupyter Book by clicking on the "Actions" tab of your repository.
 
+```{tip}
+**Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
+```
+
 ## Ready to Submit your Paper? 📝
 
 11. **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the conference organizers:
