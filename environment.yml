@@ -8,3 +8,4 @@ dependencies:
   - pip
   - pip:
     - lxml[html_clean]
+    - jupyterlab_myst
