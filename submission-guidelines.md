@@ -42,9 +42,11 @@ This will be automatically triggered when you push your changes to your reposito
 
 10. **Check your Jupyter Book**: Once you've pushed your changes, check that your Jupyter Book is building correctly. You can check the status of your Jupyter Book by clicking on the "Actions" tab of your repository.
 
+
 ```{tip}
 **Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
 ```
+
 
 ## Ready to Submit your Paper? 📝
 
@@ -56,7 +58,6 @@ This will be automatically triggered when you push your changes to your reposito
 * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
 
 
-
 ### Make Zenodo DOI for your paper
 
 12. **Make Zenodo DOI for your paper:** Once you've completed the steps above, you can make Zenodo DOI for your paper:
@@ -65,6 +66,7 @@ This will be automatically triggered when you push your changes to your reposito
     * Click on "New Upload" and select your paper repository.
     * You need to first create a new release for your paper repository. Click on "Create a new release" and add the version number of your paper. For example, if this is the first version of your paper, you can add "v1.0.0" as the version number.
     * Once you've created a new release, you can go back to the "New Upload" page and select the version of your paper and create a new DOI for your paper.
+
 
 13. **Update the DOI badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
 
@@ -77,6 +79,7 @@ This will be automatically triggered when you push your changes to your reposito
 
 
 -----------------
+
 
 ```{tip}
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
