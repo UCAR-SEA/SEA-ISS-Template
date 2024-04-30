@@ -15,7 +15,6 @@
     For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.
     ```
 
-
 3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online.
 This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings.
 
@@ -32,6 +31,7 @@ This will be automatically triggered when you push your changes to your reposito
     └── notebook2.ipynb
     ```
 
+
     This framework supports [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
 
 7. **Update the Table of Contents**: Update the `toc.yml` file to include the notebooks you've added.
@@ -47,6 +47,7 @@ This will be automatically triggered when you push your changes to your reposito
 **Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
 ```
 
+
 ## Ready to Submit your Paper? 📝
 
 11. **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the conference organizers:
@@ -55,7 +56,6 @@ This will be automatically triggered when you push your changes to your reposito
 * Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
 * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
 * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
-
 
 
 ### Make Zenodo DOI for your paper
@@ -76,6 +76,7 @@ This will be automatically triggered when you push your changes to your reposito
     
 * For those who would like their papers to be easily launched in an executable environment based upon the specifications in the repository, you can update the Binder badge in the README.md to appropriately reflect your repository name and path to your notebooks.  You can find more information about how this works on the [My Binder website](https://mybinder.org/).
 * If your notebooks are not interative or you would rather not include this feature, simply remove the line for the Binder badge in the README.md file. 
+
 
 -----------------
 
