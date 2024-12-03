@@ -2,17 +2,17 @@
 
 **Estimated submission time: 30 minutes**
 
-**This page includes the submission guidelines of SEA 2024 conference.**
+**This page includes the submission guidelines of SEA 2025 conference.**
 
 ## Create your Paper Repository
 
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
 ![Use this template](assets/use-this-template.png)
 
-2. **Name your Repository**: Name your repository using the following naming convention: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.
+2. **Name your Repository**: Name your repository using the following naming convention: `SEA-ISS-2025-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2025-My-Awesome-Paper`.
 
     ```{note}
-    For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2024-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2024-My-Awesome-Paper`.
+    For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2025-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2025-My-Awesome-Paper`.
     ```
 
 3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online.
