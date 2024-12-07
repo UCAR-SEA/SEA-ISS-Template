@@ -16,7 +16,7 @@
     ```
 
 3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online.
-This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings.
+This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings. If you have any issues with this step, please reach out to the conference organizers.
 
 4. **Environment Setup**: Update the `environment.yml` file and add any additional packages you may require. 
 
@@ -34,28 +34,30 @@ This will be automatically triggered when you push your changes to your reposito
 
     This framework supports [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
 
-7. **Update the Table of Contents**: Update the `toc.yml` file to include the notebooks you've added.
- 
-8. **Remove Instructions**: Once you've set up your repository, delete these instructions. 
+    [Example paper 1](notebooks/notebook-template) and [Example paper 2](notebooks/notebook-example2_part1) are provided to help you get started.
+    You can either organize all your content in 1 notebook (or markdown file) similar to [this example](notebooks/notebook-template.ipynb) or split it up into multiple notebooks (or markdown files) similar to the [example 2](notebooks/example_2/notebook-example2_part1.md).
 
-9. **Commit your changes**: Commit and push your changes to your repository.
+7. **Update the Table of Contents**: Update the `_toc.yml` file to include the notebooks you've added. Remove the extra examples from the `_toc.yml` file.
 
-10. **Check your Jupyter Book**: Once you've pushed your changes, check that your Jupyter Book is building correctly. You can check the status of your Jupyter Book by clicking on the "Actions" tab of your repository.
+8. **Commit your changes**: Commit and push your changes to your repository.
+
+9.  **Check your Jupyter Book**: Once you've pushed your changes, check that your Jupyter Book is building correctly. You can check the status of your Jupyter Book by clicking on the "Actions" tab of your repository.
 
 
 ```{tip}
-**Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
+**Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/example_2/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
 ```
 
+If you have any questions or need help with your submission, please reach out to the conference organizers or open an issue in this repository.
 
 ## Ready to Submit your Paper? 📝
 
-11. **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the conference organizers:
-* Once you are ready to submit your paper, go to the "Issues" tab of this repository and [click "New Issue"](https://github.com/UCAR-SEA/SEA-ISS-Template/issues/new).
-* Someone from the SEA committee will add your github username to the list of collaborators for the UCAR-SEA github organization.
-* Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
-* Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
-* Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
+* **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the conference organizers:
+  * Once you are ready to submit your paper, go to the "Issues" tab of this repository and [click "New Issue"](https://github.com/UCAR-SEA/SEA-ISS-Template/issues/new).
+  * Someone from the SEA committee will add your github username to the list of collaborators for the UCAR-SEA github organization.
+  * Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
+  * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
+  * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
 
 
 ### Make Zenodo DOI for your paper
@@ -82,7 +84,7 @@ This will be automatically triggered when you push your changes to your reposito
 
 
 ```{tip}
-You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/notebook-example2_part1) for examples of how to structure your paper.
+You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/example_2/notebook-example2_part1) for examples of how to structure your paper.
 ```
 
 
