@@ -1,4 +1,4 @@
-# How to Cite This Framework
+# How to Cite this Framework
 
 This page was created using the [SEA-ISS Notebook Submission Template](https://ucar-sea.github.io/SEA-ISS-Template/README.html). 
 The source code for this template is available on Github and archived on Zenodo. If you use this template for your scientific work, please cite using the following DOI:
