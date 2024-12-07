@@ -34,7 +34,7 @@ This will be automatically triggered when you push your changes to your reposito
 
     This framework supports [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
 
-    [Example paper 1](notebooks/notebook-template) and [Example paper 2](notebooks/notebook-example2_part1) are provided to help you get started.
+    [Example paper 1](notebooks/notebook-template) and [Example paper 2](notebooks/example_2/notebook-example2_part1) are provided to help you get started.
     You can either organize all your content in 1 notebook (or markdown file) similar to [this example](notebooks/notebook-template.ipynb) or split it up into multiple notebooks (or markdown files) similar to the [example 2](notebooks/example_2/notebook-example2_part1.md).
 
 7. **Update the Table of Contents**: Update the `_toc.yml` file to include the notebooks you've added. Remove the extra examples from the `_toc.yml` file.

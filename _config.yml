@@ -42,9 +42,7 @@ latex:
   latex_documents:
     targetname: sea_paper_2024.tex
 
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
+
 
 # Information about where the book exists on the web
 repository:
@@ -74,6 +72,7 @@ sphinx:
     html_theme            : sphinx_pythia_theme
     html_permalinks_icon: '<i class="fas fa-link"></i>'
     bibtex_reference_style: author_year
+    bibtex_bibfiles: references.bib
     html_theme_options:
       home_page_in_toc: true
       repository_url: https://github.com/UCAR-SEA/SEA-ISS-Template # Online location of your book
