@@ -1,6 +1,6 @@
 # How to Use This Template 🛠️
 
-**Estimated submission time: 30 minutes ⏰ **
+**Estimated submission time: 30 minutes ⏰**
 
 **This page includes the submission guidelines of SEA 2025 conference.**
 
