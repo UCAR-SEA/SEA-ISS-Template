@@ -106,4 +106,12 @@ sphinx:
       banner: []
       standalone: []
 
+    extra_extensions:
+    - ablog
+    - sphinx_click.ext
+    - sphinx.ext.autodoc
+    - sphinx.ext.intersphinx
+    - sphinxcontrib.bibtex
+    - sphinxcontrib.youtube
+
   
