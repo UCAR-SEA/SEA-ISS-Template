@@ -2,9 +2,11 @@ name: sea-iss-submission
 channels:
   - conda-forge
 dependencies:
+  - python=3.12
   - jupyter-book
   - jupyterlab
   - sphinx-pythia-theme==2022.3.29
+  - docutils
   - pip
   - pip:
     - lxml[html_clean]

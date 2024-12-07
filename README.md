@@ -1,13 +1,13 @@
 <img src="assets/2024_SEA_Logo2.png" width="40%" align="center">
 
-# SEA ISS 2024 Notebook Submission Template 📓
+# SEA-ISS 2025 Notebook Submission Template 📓
 
 [![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/deploy.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/deploy.yml)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCAR-SEA/SEA-ISS-Template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/739166874.svg?style=flat-square)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
-This repository contains a template for submitting your paper to the [2024 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2024).
+This repository contains a template for submitting your paper to the [2025 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2025).
 
 ## How to Use This Template 🛠️
 
@@ -15,9 +15,8 @@ This repository contains a template for submitting your paper to the [2024 Softw
 
 For your submissions, please remove everything above this line and fill in the details of your paper here:
 
------------------
-![SEA 2024 Logo](assets/logo_3.png)
-
+-------------------
+Remove anything above this line and fill in the details of your paper below:
 
 # Paper Title [Add Your Title Here]
 [![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/deploy.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/deploy.yml)

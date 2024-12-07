@@ -22,7 +22,7 @@ To add a reference to your paper, you can use the following steps:
     }
     ```
 
-2. Add the citation to your paper using the `[@citekey]` syntax. For example, to cite the paper above, you can use the following syntax: `[@perez2011python]`.
+2. Add the citation to your paper using the `[@citekey]` syntax. For example, to cite the paper above, you can use the following syntax: `[@perez2011python]` to get the citation like this: [@perez2011python].
 
     For example:
     ```

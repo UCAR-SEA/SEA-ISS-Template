@@ -4,7 +4,7 @@
 title         : Notebook Template
 author        : Negin Sobhani,  SEA Software Engineering Assembly Committee
 copyright     : "2024"  # Copyright year to be placed in the footer
-logo          : assets/logo_3.png
+logo          : assets/iss2025.png  # Path to a logo image
 email         : "negins@ucar.edu"
 
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
@@ -42,9 +42,7 @@ latex:
   latex_documents:
     targetname: sea_paper_2024.tex
 
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
+
 
 # Information about where the book exists on the web
 repository:
@@ -55,12 +53,12 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon                   : ""  # A path to a favicon image
+  favicon               : "assets/2024_SEA_Logo2.png"  # A path to a favicon image
   use_repository_button : true
   use_edit_page_button  : true
   use_issues_button     : true
   home_page_in_navbar   : true
-  use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
+  use_multitoc_numbering : true   # Continuous numbering across parts/chapters
 
   comments:
     hypothesis              : false
@@ -74,6 +72,7 @@ sphinx:
     html_theme            : sphinx_pythia_theme
     html_permalinks_icon: '<i class="fas fa-link"></i>'
     bibtex_reference_style: author_year
+    bibtex_bibfiles: references.bib
     html_theme_options:
       home_page_in_toc: true
       repository_url: https://github.com/UCAR-SEA/SEA-ISS-Template # Online location of your book
@@ -96,15 +95,23 @@ sphinx:
         - name: SEA Home
           url: https://sea.ucar.edu
         - name: SEA Conference
-          url: https://sea.ucar.edu/conference/2024
+          url: https://sea.ucar.edu/iss/
         - name: 'How to Use this Template'
           url: https://ucar-sea.github.io/SEA-ISS-Template/submission-guidelines.html
         - name: Contact Us
-          url: https://www2.cisl.ucar.edu/form/contact
+          url: https://sea.ucar.edu/community/#get-involved
 
 
     html_sidebars:
       banner: []
       standalone: []
+
+    extra_extensions:
+    - ablog
+    - sphinx_click.ext
+    - sphinx.ext.autodoc
+    - sphinx.ext.intersphinx
+    - sphinxcontrib.bibtex
+    - sphinxcontrib.youtube
 
   
