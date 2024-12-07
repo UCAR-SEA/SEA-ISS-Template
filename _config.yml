@@ -4,7 +4,7 @@
 title         : Notebook Template
 author        : Negin Sobhani,  SEA Software Engineering Assembly Committee
 copyright     : "2024"  # Copyright year to be placed in the footer
-logo          : assets/logo_3.png
+logo          : assets/iss2025.png  # Path to a logo image
 email         : "negins@ucar.edu"
 
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
@@ -55,7 +55,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon                   : ""  # A path to a favicon image
+  favicon               : "assets/2024_SEA_Logo2.png"  # A path to a favicon image
   use_repository_button : true
   use_edit_page_button  : true
   use_issues_button     : true
@@ -96,11 +96,11 @@ sphinx:
         - name: SEA Home
           url: https://sea.ucar.edu
         - name: SEA Conference
-          url: https://sea.ucar.edu/conference/2025
+          url: https://sea.ucar.edu/iss/
         - name: 'How to Use this Template'
           url: https://ucar-sea.github.io/SEA-ISS-Template/submission-guidelines.html
         - name: Contact Us
-          url: https://www2.cisl.ucar.edu/form/contact
+          url: https://sea.ucar.edu/community/#get-involved
 
 
     html_sidebars:
