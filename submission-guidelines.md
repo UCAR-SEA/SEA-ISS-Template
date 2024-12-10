@@ -39,6 +39,7 @@ This will be automatically triggered when you push your changes to your reposito
     [Example paper 1](notebooks/notebook-template) and [Example paper 2](notebooks/example_2/notebook-example2_part1) are provided to help you get started.
     You can either organize all your content in 1 notebook (or markdown file) similar to [this example](notebooks/notebook-template.ipynb) or split it up into multiple notebooks (or markdown files) similar to the [example 2](notebooks/example_2/notebook-example2_part1.md).
 
+
 7. **Update the Table of Contents**: Update the `_toc.yml` file to include the notebooks you've added. Remove the extra examples from the `_toc.yml` file.
 
 8. **Commit your changes**: Commit and push your changes to your repository.
@@ -48,6 +49,10 @@ This will be automatically triggered when you push your changes to your reposito
 
 ```{tip}
 **Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/example_2/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
+```
+
+``` {hint}
+If you are more comfortable using word or latex, you can convert your document to markdown using [pandoc](https://pandoc.org/). To learn more about how to convert your word document to markdown, you can check out [this tutorial](https://bcrf.biochem.wisc.edu/2022/12/30/learn-markdown-episode-6-convert-word-to-markdown-with-pandoc/).
 ```
 
 If you have any questions or need help with your submission, please reach out to the [conference organizers](mailto:iss_proceedings@ucar.edu) or open an issue in this repository.
