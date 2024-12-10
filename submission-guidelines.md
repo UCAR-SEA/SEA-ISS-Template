@@ -9,14 +9,18 @@
 1. **Create a New Repository Using this Template**: Click on the "Use this template" button to create a new repository with the files from this template. 
 ![Use this template](assets/use-this-template.png)
 
+```{note}
+   If you want to learn more about Git and GitHub, you can check out the following tutorials: 
+   - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+   - [Version Control with Git](https://swcarpentry.github.io/git-novice/)
+   - [Git Branching Guide](https://learngitbranching.js.org/)
+```
+
 2. **Name your Repository**: Name your repository using the following naming convention: `SEA-ISS-2025-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2025-My-Awesome-Paper`.
 
-    ```{note}
-    For your submissions, please use the following naming convention for your paper repository: `SEA-ISS-2025-<paper-title>`. For example, if your paper title is "My Awesome Paper", your repository name should be `SEA-ISS-2025-My-Awesome-Paper`.
-    ```
 
 3. **Activate GitHub Pages**: Once you created your repository, go to the settings of your repository, scroll down to the "Pages" section, and under "Build and deployment" choose Source: "GitHub Actions". This will allow you to view your Jupyter Book online.
-This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings. If you have any issues with this step, please reach out to the conference organizers.
+This will be automatically triggered when you push your changes to your repository. Once you activate this, you can view your Jupyter Book by clicking on the link provided in the "Pages" section of your repository settings. If you have any issues with this step, please reach out to the [conference organizers](mailto:iss_proceedings@ucar.edu).
 
 4. **Environment Setup**: Update the `environment.yml` file and add any additional packages you may require. 
 
@@ -30,7 +34,6 @@ This will be automatically triggered when you push your changes to your reposito
     ├── notebook1.ipynb
     └── notebook2.ipynb
     ```
-
 
     This framework supports [the MyST Markdown language](https://jupyterbook.org/en/stable/reference/glossary.html#term-MyST) in Markdown and notebook documents. This allows users to write rich, publication-quality markup in their documents.
 
@@ -48,16 +51,16 @@ This will be automatically triggered when you push your changes to your reposito
 **Citations and Bibliography**: For adding citations to your paper and referencing others, please see our detailed guidelines [here](notebooks/example_2/notebook-example2_references.md). In short, after adding your references to your `references.bib` file, you can add the citation to your paper using the `{cite}[authoryearkey]` syntax.
 ```
 
-If you have any questions or need help with your submission, please reach out to the conference organizers or open an issue in this repository.
+If you have any questions or need help with your submission, please reach out to the [conference organizers](mailto:iss_proceedings@ucar.edu) or open an issue in this repository.
 
 ## Ready to Submit your Paper? 📝
 
-* **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the conference organizers:
+* **Submit your Paper:** Once you've completed the steps above, you can submit your paper to the [conference organizers](mailto:iss_proceedings@ucar.edu):
   * Once you are ready to submit your paper, go to the "Issues" tab of this repository and [click "New Issue"](https://github.com/UCAR-SEA/SEA-ISS-Template/issues/new).
   * Someone from the SEA committee will add your github username to the list of collaborators for the UCAR-SEA github organization.
   * Once you accepted the invitation, you can transfer your repository to the UCAR-SEA organization.
   * Navigate to the settings of your paper repository, scroll down to the Danger Zone, and click "Transfer" . 
-  * Select or type "UCAR-SEA" to transfer the repository to the conference organizers. This step will make your paper public and allow the conference organizers to review your paper.
+  * Select or type "UCAR-SEA" to transfer the repository to the [conference organizers](mailto:iss_proceedings@ucar.edu). This step will make your paper public and allow the [conference organizers](mailto:iss_proceedings@ucar.edu) to review your paper.
 
 
 ### Make Zenodo DOI for your paper
@@ -89,5 +92,5 @@ You can submit your paper as one notebook or split it up to multiple notebooks a
 
 
 ```{note}
-Please reach out to the conference organizers or open an issue or a discussion in this repository if you have any questions or need help with your submission.
+Please reach out to the [conference organizers](mailto:iss_proceedings@ucar.edu) or open an issue or a discussion in this repository if you have any questions or need help with your submission.
 ```
