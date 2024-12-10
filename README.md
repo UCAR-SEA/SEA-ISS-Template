@@ -7,7 +7,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCAR-SEA/SEA-ISS-Template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/739166874.svg?style=flat-square)](https://zenodo.org/doi/10.5281/zenodo.10499040)
 
-This repository contains a template for submitting your paper to the [2025 Software Engineering Assembly Conference](https://sea.ucar.edu/event/sea-2025).
+This repository contains a template for submitting your paper to the [2025 Software Engineering Assembly Conference](https://sea.ucar.edu/iss/2025/).
 
 ## How to Use This Template 🛠️
 
