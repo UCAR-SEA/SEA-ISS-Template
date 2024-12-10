@@ -11,7 +11,6 @@
 
 ```{note}
    If you want to learn more about Git and GitHub, you can check out the following tutorials: 
-   - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
    - [Version Control with Git](https://swcarpentry.github.io/git-novice/)
    - [Git Branching Guide](https://learngitbranching.js.org/)
 ```
@@ -85,11 +84,9 @@ If you have any questions or need help with your submission, please reach out to
 
 -----------------
 
-
 ```{tip}
 You can submit your paper as one notebook or split it up to multiple notebooks and markdown files. Please see the [example paper1](notebooks/notebook-template) and [example paper2](notebooks/example_2/notebook-example2_part1) for examples of how to structure your paper.
 ```
-
 
 ```{note}
 Please reach out to the [conference organizers](mailto:iss_proceedings@ucar.edu) or open an issue or a discussion in this repository if you have any questions or need help with your submission.
