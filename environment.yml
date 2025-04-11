@@ -5,9 +5,8 @@ dependencies:
   - python=3.12
   - jupyter-book
   - jupyterlab
+  - jupyterlab-myst
   - sphinx-pythia-theme==2022.3.29
+  - sphinxcontrib-bibtex
   - docutils
-  - pip
-  - pip:
-    - lxml[html_clean]
-    - jupyterlab_myst
+  - lxml-html-clean
