@@ -55,8 +55,8 @@ body:
         - [ ] Acronyms are spelled out at first use
         - [ ] All contributing authors are listed (e.g., in the README or notebook header)
 
-        ## ✍️ Reviewer Suggestions
-        Please summarize:
+        ## ✍️ Written Review
+        In addition to the review checklist above, please summarize:
         - Overall description of the paper: 
         - Key strengths of the submission:
         - Any recommended improvements:
