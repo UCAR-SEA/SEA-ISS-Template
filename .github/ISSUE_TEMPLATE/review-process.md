@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # ✅ Suggested Review Criteria for Notebook Proceedings
+        # Content Review Process
 
         ## Reviewers
 
@@ -15,6 +15,8 @@ body:
         |:----------------------|:---------|
         | Reviewer 1             |          |
         | Reviewer 2             |          |
+
+        Reviewers, please copy the following into a comment and complete the requested fields to proceed with the review process. 
 
         ## ⚖️ Conflict of Interest
         - [ ] As the reviewer, I confirm that there are **no conflicts of interest** for me to review this work  
