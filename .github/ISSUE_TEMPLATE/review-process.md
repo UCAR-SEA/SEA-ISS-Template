@@ -9,14 +9,7 @@ body:
       value: |
         # Content Review Process
 
-        ## Reviewers
-
-        | **Assigned Reviewer** | **Name** |
-        |:----------------------|:---------|
-        | Reviewer 1             |          |
-        | Reviewer 2             |          |
-
-        Reviewers, please copy the following into a comment and complete the requested fields to proceed with the review process. 
+        Reviewer Name: [FILL IN]
 
         ## ⚖️ Conflict of Interest
         - [ ] As the reviewer, I confirm that there are **no conflicts of interest** for me to review this work  
