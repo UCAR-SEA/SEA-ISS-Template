@@ -69,15 +69,21 @@ If you have any questions or need help with your submission, please reach out to
 
 ### Make Zenodo DOI for your paper
 
-12. **Make Zenodo DOI for your paper:** Once you've completed the steps above, you can make Zenodo DOI for your paper:
-
-    * Go to [Zenodo](https://zenodo.org/) and login with your GitHub account.
-    * Click on "New Upload" and select your paper repository.
-    * You need to first create a new release for your paper repository. Click on "Create a new release" and add the version number of your paper. For example, if this is the first version of your paper, you can add "v1.0.0" as the version number.
-    * Once you've created a new release, you can go back to the "New Upload" page and select the version of your paper and create a new DOI for your paper.
-
-
-13. **Update the DOI badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
+: 1\. Go to [Zenodo] and login with your GitHub account.
+: 2\. Click on your username in the upper right of Zenodo and select "GitHub".
+: 3\. Find your paper repository in the UCAR-SEA org and switch Zenodo preservation to ON.
+: 4\. In GitHub, open your paper repository in the UCAR-SEA GitHub organization and click "Create a new release". - Click the "Select tag" button and provide a version - probably v1.0.0 unless you have already created such a tag earlier (in which case, use the appropriate version for your new release). You can name the release using the version number as well (e.g., "v1.0.0 - Zenodo DOI"). Then, publish the release.
+: 5\. Back in Zenodo, you should now see a DOI for this release if you click on the repository. Click on the created DOI.
+: 6\. Click edit and make the following changes:
+   - Change Resource type to "Publication / Conference proceeding"
+   - Change the title to your paper title
+   - Modify Creators to match those authors shown in the paper's README
+   - Replace the description with your abstract
+   - Add your keywords from your paper
+   - Add Conference information (Title: "2025 Improving Scientific Software Conference", Acronym: "ISS25", Place: "Boulder, CO",  Dates: "7-10 April, 2025" and Website: "https://sea.ucar.edu/iss/2025/")
+: 7\. Feel free to add other relevant information as appropriate and then click "Publish".
+: 8\. Finally, scroll down on the published record to the "Communities" section on the right. Click the gear icon and choose "Submit to Community" Search for "2025 Improving Scientific Software Conference Proceedings", read the disclaimer and submit.
+: 9\.  **Update the DOI badge**: Once you've created a new DOI for your paper, you can update the DOI badge in the README.md file of your paper repository with the new DOI.
 
 ## Configure Binder for your paper:
 
