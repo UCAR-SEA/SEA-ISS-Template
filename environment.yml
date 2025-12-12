@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - jupyter-book
+  - jupyter-book<2
   - jupyterlab
   - jupyterlab-myst
   - sphinx-pythia-theme==2022.3.29
